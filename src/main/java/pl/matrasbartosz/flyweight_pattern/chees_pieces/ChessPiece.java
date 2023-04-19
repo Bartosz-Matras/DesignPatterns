@@ -2,10 +2,10 @@ package pl.matrasbartosz.flyweight_pattern.chees_pieces;
 
 public class ChessPiece {
 
-    private String name;
-    private String numberPosition;
-    private String letterPosition;
-    private Color color;
+    private final String name;
+    private final String numberPosition;
+    private final String letterPosition;
+    private final Color color;
 
     public ChessPiece(String name, String numberPosition, String letterPosition, String color) {
         this.name = name;

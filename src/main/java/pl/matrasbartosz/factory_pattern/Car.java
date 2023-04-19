@@ -2,10 +2,10 @@ package pl.matrasbartosz.factory_pattern;
 
 abstract class Car {
 
-    private double engineCapacity;
-    private int productionYear;
-    private String fuelType;
-    private String steeringWheelPosition;
+    private final double engineCapacity;
+    private final int productionYear;
+    private final String fuelType;
+    private final String steeringWheelPosition;
 
     protected Car(double engineCapacity, int productionYear, String fuelType, String steeringWheelPosition) {
         this.engineCapacity = engineCapacity;
