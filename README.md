@@ -5,3 +5,6 @@
 * Flyweight
 * Observer
 * Singleton
+* Chain of responsibility
+* Decorator
+* Template method
