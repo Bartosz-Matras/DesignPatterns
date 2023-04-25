@@ -3,7 +3,7 @@ package pl.matrasbartosz.template_method_pattern;
 class MyDay extends WeekDay {
     @Override
     protected void work() {
-        System.out.println("Code monkey get up, get coffe.");
+        System.out.println("Code monkey get up, get coffee.");
     }
 
     @Override

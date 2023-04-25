@@ -1,10 +1,17 @@
 ﻿# DesignPatterns
 * Adapter
 * Builder
+* Chain of responsibility
+* Command
+* Decorator
+* Facade
 * Factory
 * Flyweight
+* Memento
 * Observer
+* Proxy
 * Singleton
-* Chain of responsibility
-* Decorator
+* State
+* Strategy
 * Template method
+* Visitor
